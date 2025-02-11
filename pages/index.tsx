@@ -1,4 +1,4 @@
-import { Button, HTag } from '@/components';
+import { Button, HTag, Paragraph } from '@/components';
 import Head from 'next/head';
 import { JSX } from 'react';
 
@@ -19,6 +19,11 @@ export default function Home(): JSX.Element {
         <Button appearance="ghost" arrow="right">
           Читать отзывы
         </Button>
+        <Paragraph>
+          Студенты освоят не только hard skills, необходимые для работы веб-дизайнером, но и soft skills — навыки,
+          которые позволят эффективно взаимодействовать в команде с менеджерами, разработчиками и маркетологами.
+          Выпускники факультета могут успешно конкурировать с веб-дизайнерами уровня middle.
+        </Paragraph>
       </div>
     </>
   );
