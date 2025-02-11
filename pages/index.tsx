@@ -14,16 +14,14 @@ export default function Home(): JSX.Element {
       <div>
         <HTag tag="h1">Hello</HTag>
         <Button appearance="primary" arrow="right">
-          Узнать подробнее
+          Кнопка
         </Button>
-        <Button appearance="ghost" arrow="right">
-          Читать отзывы
+        <Button appearance="ghost" arrow="down">
+          Кнопка
         </Button>
-        <Paragraph>
-          Студенты освоят не только hard skills, необходимые для работы веб-дизайнером, но и soft skills — навыки,
-          которые позволят эффективно взаимодействовать в команде с менеджерами, разработчиками и маркетологами.
-          Выпускники факультета могут успешно конкурировать с веб-дизайнерами уровня middle.
-        </Paragraph>
+        <Paragraph size="s">Маленький</Paragraph>
+        <Paragraph>Средний</Paragraph>
+        <Paragraph size="l">Большой</Paragraph>
       </div>
     </>
   );
