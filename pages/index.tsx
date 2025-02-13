@@ -1,4 +1,4 @@
-import { Button, HTag, Paragraph } from '@/components';
+import { Button, HTag, Paragraph, Tag } from '@/components';
 import Head from 'next/head';
 import { JSX } from 'react';
 
@@ -22,6 +22,15 @@ export default function Home(): JSX.Element {
         <Paragraph size="s">Маленький</Paragraph>
         <Paragraph>Средний</Paragraph>
         <Paragraph size="l">Большой</Paragraph>
+        <Tag color="ghost" size="s">
+          ghost
+        </Tag>
+        <Tag color="red">red</Tag>
+        <Tag color="grey">grey</Tag>
+        <Tag color="green" size="m">
+          green
+        </Tag>
+        <Tag color="primary">primary</Tag>
       </div>
     </>
   );
