@@ -24,6 +24,7 @@
     "classnames": "^2.5.1",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
+    "eslint-plugin-react-hooks": "^5.1.0",
     "stylelint": "^16.14.1",
     "stylelint-config-standard": "^37.0.0",
     "stylelint-order": "^6.0.4",
@@ -31,4 +32,3 @@
     "typescript": "^5"
   }
 }
-
